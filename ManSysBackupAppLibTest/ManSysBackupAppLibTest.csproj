@@ -25,4 +25,16 @@
     <ProjectReference Include="..\ManSysBackupAppLib\ManSysBackupAppLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="TestDirectory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="TestDirectory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="TestDirectory\**" />
+  </ItemGroup>
+
 </Project>
