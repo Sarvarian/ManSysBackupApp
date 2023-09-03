@@ -398,5 +398,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 # I added these myself. (I'm Mohammad Jamal Savarian)
+!BackupNow/
 .idea/
 ManSysBackupAppLibTest/TestDirectory/
+
